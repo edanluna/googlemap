@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="http://www.codeplex.com/googlemap/" title="Project Home"  description="" />
+        <siteMapNode url="http://artembg.com/paypal.donate?p=googlemap" title="Donate Project"  description="" />
+		<siteMapNode url="~/CustomSample.aspx" title="Have A Sample?" description=""></siteMapNode>
+		<siteMapNode url="http://artembg.com" title="ArtemBG"  description="" />
+    </siteMapNode>
+</siteMap>
