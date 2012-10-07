@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0660EA3D-B58B-4858-9822-9A6459A4001C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Artem.Web.UI.Controls</RootNamespace>
+    <AssemblyName>Artem.GoogleMap</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>GoogleMapKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientScriptHelper.cs" />
+    <Compile Include="GoogleBounds.cs" />
+    <Compile Include="GoogleCirclePolygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoogleDirection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoogleDistance.cs" />
+    <Compile Include="GoogleDuration.cs" />
+    <Compile Include="GoogleEventList.cs" />
+    <Compile Include="GoogleMapBehaviour.cs" />
+    <Compile Include="GoogleMapView.cs" />
+    <Compile Include="GoogleMarker.TemplateContainer.cs">
+      <DependentUpon>GoogleMarker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMarkerBehaviour.cs" />
+    <Compile Include="GooglePoint.cs" />
+    <Compile Include="GooglePolygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GooglePolyline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoogleSize.cs" />
+    <Compile Include="IClientAction.cs" />
+    <Compile Include="IJsonObject.cs" />
+    <Compile Include="JsonDataAttribute.cs" />
+    <Compile Include="OpenInfoBehaviour.cs" />
+    <Compile Include="JsUtil.cs" />
+    <Compile Include="GoogleMap.cs" />
+    <Compile Include="GoogleMapDesigner.cs" />
+    <Compile Include="GoogleMarker.cs" />
+    <Compile Include="GoogleLocation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateCollection.cs" />
+    <Compile Include="JsonSerializer.cs" />
+    <Compile Include="ZoomPanType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\GoogleMap-4.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\GoogleMap-4.1.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GoogleEventArgs.cs" />
+    <Compile Include="GoogleEventType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GoogleMap.MapEvents.cs">
+      <DependentUpon>GoogleMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMarker.DefaultInfoContent.cs">
+      <DependentUpon>GoogleMarker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMarkerEvents.cs" />
+    <Compile Include="MarkerManagerOptions.cs" />
+    <Compile Include="GoogleMarkerStyle.cs" />
+    <Compile Include="GooglePolygonEvents.cs" />
+    <Compile Include="GooglePolylineEvents.cs" />
+    <Compile Include="StreetViewMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GoogleMapKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\markermanager.js" />
+    <EmbeddedResource Include="Scripts\markermanager_packed.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
