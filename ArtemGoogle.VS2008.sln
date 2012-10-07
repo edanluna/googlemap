@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SampleWebSite", "SampleWebSite", "{D01B0092-8646-45A3-80F6-07E531A19857}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFramework = "3.5"
+		ProjectReferences = "{0660EA3D-B58B-4858-9822-9A6459A4001C}|Artem.GoogleMap.dll;{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}|Artem.GoogleMap.Extensions.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SampleWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "SampleWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SampleWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SampleWebSite"
+		Release.AspNetCompiler.PhysicalPath = "SampleWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SampleWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "82"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F20B52E4-C71F-43BC-A54C-41F87029B5FB}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\GoogleMapKey.snk = Shared\GoogleMapKey.snk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artem.Google", "Artem.Google\Artem.Google.csproj", "{0660EA3D-B58B-4858-9822-9A6459A4001C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artem.Google.Extensions", "Artem.Google.Extensions\Artem.Google.Extensions.csproj", "{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs04.codeplex.com/
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = SampleWebSite
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = SampleWebSite\\
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Artem.Google\\Artem.Google.csproj
+		SccProjectName2 = Artem.Google
+		SccLocalPath2 = Artem.Google
+		SccProjectUniqueName3 = Artem.Google.Extensions\\Artem.Google.Extensions.csproj
+		SccProjectName3 = Artem.Google.Extensions
+		SccLocalPath3 = Artem.Google.Extensions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01B0092-8646-45A3-80F6-07E531A19857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01B0092-8646-45A3-80F6-07E531A19857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01B0092-8646-45A3-80F6-07E531A19857}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01B0092-8646-45A3-80F6-07E531A19857}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0660EA3D-B58B-4858-9822-9A6459A4001C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0660EA3D-B58B-4858-9822-9A6459A4001C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0660EA3D-B58B-4858-9822-9A6459A4001C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0660EA3D-B58B-4858-9822-9A6459A4001C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB064F3-8093-4DAC-AF5E-74AE7F2931B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
