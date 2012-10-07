@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artem.GoogleMap", "Artem.GoogleMap\Artem.GoogleMap.csproj", "{ED5A443B-64FC-41DD-B44E-02AD2684959B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SampleWebSite", "SampleWebSite", "{BEEF6808-A6C1-446D-9ABD-0966A47888E4}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFramework = "3.5"
+		ProjectReferences = "{ED5A443B-64FC-41DD-B44E-02AD2684959B}|Artem.GoogleMap.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SampleWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "SampleWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SampleWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SampleWebSite"
+		Release.AspNetCompiler.PhysicalPath = "SampleWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SampleWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "82"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs04.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Artem.GoogleMap\\Artem.GoogleMap.csproj
+		SccProjectName1 = Artem.GoogleMap
+		SccLocalPath1 = Artem.GoogleMap
+		SccWebProject2 = true
+		SccProjectUniqueName2 = SampleWebSite
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = SampleWebSite\\
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5A443B-64FC-41DD-B44E-02AD2684959B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5A443B-64FC-41DD-B44E-02AD2684959B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5A443B-64FC-41DD-B44E-02AD2684959B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5A443B-64FC-41DD-B44E-02AD2684959B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEF6808-A6C1-446D-9ABD-0966A47888E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEF6808-A6C1-446D-9ABD-0966A47888E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEF6808-A6C1-446D-9ABD-0966A47888E4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEF6808-A6C1-446D-9ABD-0966A47888E4}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

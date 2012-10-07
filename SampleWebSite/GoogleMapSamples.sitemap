@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="GoogleMap Samples"  description="">
+        <siteMapNode url="~/map/GoogleMap.aspx" title="GoogleMap"  description="" />
+        <siteMapNode url="~/map/GoogleMapEvents.aspx" title="GoogleMap Events"  description="" />
+        <siteMapNode url="~/map/CaptureClick.aspx" title="Capture Click Sample"  description=""/>
+        <siteMapNode url="~/map/ClientUpdate.aspx" title="Client Update Sample"  description=""/>
+        <siteMapNode url="~/map/DataBinding.aspx" title="Data Binding Sample"  description=""/>
+        <siteMapNode url="~/map/DataBound.aspx" title="Data Bound Sample"  description=""/>
+        <siteMapNode url="~/map/PostbackPersistence.aspx" title="Postback Persistence Sample"  description="" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="GoogleMap Samples" description="">
+        <siteMapNode url="~/polygon/GooglePolygon.aspx" title="GooglePolygon" description="" />
+        <siteMapNode url="~/polygon/GoogleCirclePolygon.aspx" title="GoogleCirclePolygon" description="" />
+		<siteMapNode url="~/polygon/ClientEvents.aspx" title="Client Events" description=""/>
+    </siteMapNode>
+</siteMap>

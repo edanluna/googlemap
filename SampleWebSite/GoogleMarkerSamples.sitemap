@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="GoogleMap Samples"  description="">
+        <siteMapNode url="~/marker/GoogleMarker.aspx" title="GoogleMarker"  description="" />
+        <siteMapNode url="~/marker/GoogleMarkerEvents.aspx" title="GoogleMarker Events"  description="" />
+		<siteMapNode url="~/marker/CustomIcons.aspx" title="Custom Icons Samples"  description=""/>
+    </siteMapNode>
+</siteMap>
