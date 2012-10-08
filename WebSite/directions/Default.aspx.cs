@@ -23,7 +23,7 @@ namespace Artem.GoogleMap.WebSite.Directions {
             string destination = txtDestination.Text;
             string origin = txtOrigin.Text;
             if ((origin != null) && (destination != null)) {
-                GoogleDirections1.Destination.Address = destination;
+                GoogleDirections1.Destination.Point = new Google.UI.LatLng(41.12345, -87.12345);// destination;
                 GoogleDirections1.Origin.Address = origin;
             }
         }

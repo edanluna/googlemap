@@ -100,6 +100,7 @@
     <Compile Include="Directions\DirectionsChangedEventArgs.cs" />
     <Compile Include="Directions\DirectionsStep.cs" />
     <Compile Include="IScriptDataConverter.cs" />
+    <Compile Include="TestMap.cs" />
     <None Include="JsonConvert.cs" />
     <Compile Include="Markers\GoogleMarkers.cs" />
     <Compile Include="Overlays\Overlay.cs" />
@@ -222,7 +223,20 @@
       <DependentUpon>GoogleGroundBehavior.js</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\GoogleMap.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\GoogleMap.js">
+      <DependentUpon>GoogleMap.ts</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scripts\GoogleMap.min.js">
+      <DependentUpon>GoogleMap.ts</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\MicrosoftAjax.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

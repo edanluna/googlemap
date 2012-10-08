@@ -1,19 +1,18 @@
-﻿///<reference name="MicrosoftAjax.debug.js"/>
-///<reference path="http://maps.googleapis.com/maps/api/js?sensor=false"/>
+﻿///<reference path="http://maps.googleapis.com/maps/api/js?sensor=false"/>
 
 // ------------------------------------------------------------------------------------------------
 // Copyright (C) ArtemBG.
 // ------------------------------------------------------------------------------------------------
-// GoogleMap4.debug.js
-// GoogleMap Control v5.5 javascipt library (debug).
+// GoogleMap.js
+// GoogleMap Control v7.0 javascipt library (debug).
 //
 // Assembly:    Artem.GooleMap
-// Version:     6.0.0.0
+// Version:     7.0.0.0
 // Project:     http://googlemap.codeplex.com
 // Demo:        http://googlemap.artembg.com
 // Author:      Velio Ivanov - velio@artembg.com
 //              http://artembg.com
-// License:     Microsoft Permissive License (Ms-PL) v1.1
+// License:     The MIT License (MIT)
 //              http://www.codeplex.com/googlemap/license
 // API:         http://code.google.com/apis/maps/
 

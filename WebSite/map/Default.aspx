@@ -39,4 +39,5 @@
             Longitude="24.7879" CssClass="map" DefaultAddress="sofia">
         </artem:GoogleMap>
     </div>
+    <artem:TestMap ID="testMap" runat="server"></artem:TestMap>
 </asp:Content>
